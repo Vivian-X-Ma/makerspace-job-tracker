@@ -138,7 +138,7 @@ function Dashboard() {
 
       /* SENDING EMAIL Here */
          if (newStatus === 'in_progress' || newStatus === 'completed') {
-      const { data: functionData, error: functionError } = await supabase.functions.invoke('send-job-email', {
+      const { data: functionData, error: functionError } = await supabase.functions.invoke('email-sender', {
         body: {
           email: job.email,
           status: newStatus,
