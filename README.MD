@@ -2,33 +2,33 @@
 
 A tracker for Wond'ry Makerspace projects at Vanderbilt University
 
-### User Guide
+## User Guide
 
 Access the site [here](https://makerspace-job-tracker.vercel.app) (https://makerspace-job-tracker.vercel.app) for the **submission form** and [here](https://makerspace-job-tracker.vercel.app/dashboard) (https://makerspace-job-tracker.vercel.app/dashboard) for the **job board**. The job board should only be used by MakerTechs and staff, so **please do not share the dashboard link.** 
 
 
-#### Submission Form
+### Submission Form
 
 This link brings you to the submission form.
-![submission form](./src/assets/submission-page.png)
+![submission form](./frontend/src/assets/submission-page.png)
 
 This form includes a progress tracker at the very top, and starred * fields are required. 
 
 For labs and VUMC, there will be an additional pop-up menu that they need to fill out. 
-![lab-form](./src/assets/lab-form.png)
+![lab-form](./frontend/src/assets/lab-form.png)
 
 For laser cuts, there will be a material selection tab, but not for 3D prints. If there are any additional requests for 3d prints, they can put it in the notes tab. The file upload allows for multiple attachments, and a remove option if the wrong file is uploaded. 
-![files](./src/assets/laser-cut-and-upload.png)
+![files](./frontend/src/assets/laser-cut-and-upload.png)
 
 
-#### Job Board
-
-
-
+### Job Board
 
 
 
-#### Troubleshooting
+
+
+
+### Troubleshooting
 
 1. If you have errors with seeing the jobs, it is highly likely that the Supabase is inactive (we are using free tier and it will go inactive after 7 days if we have no submissions). MakerTechs, please go to Supabase, log in with our credentials, and restart the database, which will load everything in. This may take a few minutes. Since we will be using it every day, it should not have too many issues. 
 
