@@ -10,15 +10,15 @@ Access the site [here](https://makerspace-job-tracker.vercel.app) (https://maker
 #### Submission Form
 
 This link brings you to the submission form.
-![submission form](./assets/submission-form.png)
+![submission form](./src/assets/submission-form.png)
 
 This form includes a progress tracker at the very top, and starred * fields are required. 
 
 For labs and VUMC, there will be an additional pop-up menu that they need to fill out. 
-![lab-form](./assets/lab-form.png)
+![lab-form](./src/assets/lab-form.png)
 
 For laser cuts, there will be a material selection tab, but not for 3D prints. If there are any additional requests for 3d prints, they can put it in the notes tab. The file upload allows for multiple attachments, and a remove option if the wrong file is uploaded. 
-![files](./assets/laser-cut-and-upload.png)
+![files](./src/assets/laser-cut-and-upload.png)
 
 
 #### Job Board
