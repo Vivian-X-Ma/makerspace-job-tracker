@@ -136,6 +136,25 @@ function Dashboard() {
       
       if (error) throw error
 
+      /* SENDING EMAIL Here */
+         if (newStatus === 'in_progress' || newStatus === 'completed') {
+      const { data: functionData, error: functionError } = await supabase.functions.invoke('send-job-email', {
+        body: {
+          email: job.email,
+          status: newStatus,
+          jobType: job.job_type
+        }
+      })
+
+      if (functionError) {
+        console.error('Email error:', functionError)
+      } else {
+        console.log('Email sent successfully:', functionData)
+      }
+    }
+
+
+
       if (newStatus === 'in_progress') {
         console.log('TODO: Send "in progress" email to', job.email)
       } else if (newStatus === 'completed') {
