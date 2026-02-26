@@ -40,12 +40,20 @@ For laser cuts, there will be a material selection tab, but not for 3D prints. I
 
 ### Versions
 
-v1.1.0 - Integrating email notifications to users when completing jobs with Resend API
-v1.0.1 - Adding User Guide
-v1.0.0 - Fully working and deployed on Vercel
-v0.3.0 - Integrated Supabase and fixed bugs with submission
-v0.2.3 - Added a progress tracker to the submission form, and added a remove option for file uploads
-v0.2.2 - Updated the job board to have drag and drop, and added a note feature
-v0.2.1 - Fixed the submission form to have the correct options for labs/research
-v0.2.0 - Added job board
-v0.1.0 - Created submission form
+v1.1.0 - Integrating email notifications to users when completing jobs with Resend API  
+
+v1.0.1 - Adding User Guide  
+
+v1.0.0 - Fully working and deployed on Vercel  
+
+v0.3.0 - Integrated Supabase and fixed bugs with submission  
+
+v0.2.3 - Added a progress tracker to the submission form, and added a remove option for file uploads  
+
+v0.2.2 - Updated the job board to have drag and drop, and added a note feature  
+
+v0.2.1 - Fixed the submission form to have the correct options for labs/research  
+
+v0.2.0 - Added job board  
+
+v0.1.0 - Created submission form  
