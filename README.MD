@@ -10,7 +10,7 @@ Access the site [here](https://makerspace-job-tracker.vercel.app) (https://maker
 #### Submission Form
 
 This link brings you to the submission form.
-![submission form](./src/assets/submission-form.png)
+![submission form](./src/assets/submission-page.png)
 
 This form includes a progress tracker at the very top, and starred * fields are required. 
 
